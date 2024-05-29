@@ -8,12 +8,7 @@ const Filter = () => {
         <div className="top">
           <div className="item">
             <label htmlFor="city">Location</label>
-            <input
-              type="text"
-              name="city"
-              id="city"
-              placeholder="City Location"
-            />
+            <input type="text" name="city" id="city" placeholder="City Location" />
           </div>
         </div>
         <div className="bottom">
@@ -39,32 +34,17 @@ const Filter = () => {
 
           <div className="item">
             <label htmlFor="minPrice">Min Price</label>
-            <input
-              type="number"
-              name="minPrice"
-              id="minPrice"
-              placeholder="any"
-            />
+            <input type="number" name="minPrice" id="minPrice" placeholder="any" />
           </div>
 
           <div className="item">
             <label htmlFor="maxPrice">Max Price</label>
-            <input
-              type="number"
-              name="maxPrice"
-              id="maxPrice"
-              placeholder="any"
-            />
+            <input type="number" name="maxPrice" id="maxPrice" placeholder="any" />
           </div>
 
           <div className="item">
             <label htmlFor="bedroom">Bedroom</label>
-            <input
-              type="number"
-              name="bedroom"
-              id="bedroom"
-              placeholder="any"
-            />
+            <input type="number" name="bedroom" id="bedroom" placeholder="any" />
           </div>
 
           <button>
